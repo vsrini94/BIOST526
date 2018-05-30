@@ -35,4 +35,7379 @@ The file will have its original line endings in your working directory.[0K
 The file will have its original line endings in your working directory.[0K
 [0K[?25h[?25l
 [0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
-$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[14G[?25h[15G[?25l$ git commit -a[0K[?25h[17G[?25l$ git commit -a -[0K[?25hm[0K[20G[?25l$ git commit -a -m '[0K[?25h'[0K[21G[?25l$ git commit -a -m 'i'[0K[22G[?25h[?25l$ git commit -a -m 'in'[0K[23G[?25h[?25l$ git commit -a -m 'ini'[0K[24G[?25h[?25l$ git commit -a -m 'init'[0K[24G[?25h[25G[?25l$ git commit -a -m 'initi'[0K[26G[?25h[?25l$ git commit -a -m 'initia'[0K[27G[?25h[?25l$ git commit -a -m 'initial'[0K[28G[?25h[?25l$ git commit -a -m 'initial '[0K[29G[?25h[?25l$ git commit -a -m 'initial c'[0K[29G[?25h[30G[?25l$ git commit -a -m 'initial co'[0K[31G[?25h[?25l$ git commit -a -m 'initial com'[0K[32G[?25h[?25l$ git commit -a -m 'initial comm'[0K[33G[?25h[?25l$ git commit -a -m 'initial commi'[0K[34G[?25h[?25l$ git commit -a -m 'initial commit'[0K[35G[?25h
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[14G[?25h[15G[?25l$ git commit -a[0K[?25h[17G[?25l$ git commit -a -[0K[?25hm[0K[20G[?25l$ git commit -a -m '[0K[?25h'[0K[21G[?25l$ git commit -a -m 'i'[0K[22G[?25h[?25l$ git commit -a -m 'in'[0K[23G[?25h[?25l$ git commit -a -m 'ini'[0K[24G[?25h[?25l$ git commit -a -m 'init'[0K[24G[?25h[25G[?25l$ git commit -a -m 'initi'[0K[26G[?25h[?25l$ git commit -a -m 'initia'[0K[27G[?25h[?25l$ git commit -a -m 'initial'[0K[28G[?25h[?25l$ git commit -a -m 'initial '[0K[29G[?25h[?25l$ git commit -a -m 'initial c'[0K[29G[?25h[30G[?25l$ git commit -a -m 'initial co'[0K[31G[?25h[?25l$ git commit -a -m 'initial com'[0K[32G[?25h[?25l$ git commit -a -m 'initial comm'[0K[33G[?25h[?25l$ git commit -a -m 'initial commi'[0K[34G[?25h[?25l$ git commit -a -m 'initial commit'[0K[35G[?25h[master (root-commit) b625cde] initial commit[0K[?25l
+ Committer: Vinay Srinivasan <vsrini@ihme.washington.edu>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly:[0K
+[0K
+    git config --global user.name "Your Name"[0K
+    git config --global user.email you@example.com[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 28 files changed, 1394 insertions(+)[0K
+ create mode 100644 PM10.doc[0K
+ create mode 100644 PM10.txt[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/console06/997338C7[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/console06/INDEX001[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/5B47BFB4[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/8CEB7E11[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/CFA8BAC5[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/INDEX[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/185A4A63-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/685388BE[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/685388BE-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/B8CBA4DA[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/B8CBA4DA-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/FDAAEC6A-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/lock_file[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/AA5E2E5265D95836/chunks.jso[0Kn
+[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l77aniqf5/00001b.html[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l77aniqf5/00001b.meta[0Kd
+ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnmsbbftpu1/000036.html[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnmsbbftpu1/000036.meta[0Kd
+ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/chunks.json[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/ck1n3w1yzvp7x/000002.csv[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/csetup_chunk/000002.csv[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/patch-chunk-names[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/paths[0K
+ create mode 100644 code/code.Rproj[0K
+ create mode 100644 code/markdown.Rmd[0K
+ create mode 100644 code/markdown.pdf[0K
+[0K[?25h[?25l
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hit remote add origin https://github.com/vsrini94/BIOST526.git[0K[?25l
+[0K[?25h[?25l
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git push -u origin master[0K[?25h[?25l
+[0K[?25hCounting objects: 41, done.[0K[?25l
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (33/33), done.[0K
+Writing objects:   7% (3/41)[0K[1G[?25h[?25lWriting objects:  97% (40/41)[0K[1G[?25hWriting objects: 100% (41/41), 952.23 KiB | 16.14 MiB/s, done.[0K[?25l
+Total 41 (delta 1), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (1/1), done.[0K[?25l
+[0K[?25hTo https://github.com/vsrini94/BIOST526.git[0K[?25l
+ * [new branch]      master -> master[0K
+[0K[?25hBranch 'master' set up to track remote branch 'master' from 'origin'.[0K[?25l
+[0K[?25h[?25l
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ v[0K[?25hi[0Km[0K[?25l
+[0K[?25h[0m[1;1H[2J[0m[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0m[0K[1A[?25h[?25l[7A[0;34;94m~                                         [0mVIM - Vi IMproved[0;34;94m[0K
+~[0K
+~                                          [0mversion 8.0.1476[0;34;94m[0K
+~                                      [0mby Bram Moolenaar et al.[0;34;94m[0K
+~                            [0mVim is open source and freely distributable[0;34;94m[0K
+~[0K
+~                                   [0mBecome a registered Vim user![0;34;94m[0K
+~                           [0mtype  :help register[0;34;94m<Enter>[0m   for information [0;34;94m[0K
+~[0K
+~                           [0mtype  :q[0;34;94m<Enter>[0m               to exit         [0;34;94m[0K
+~                           [0mtype  :help[0;34;94m<Enter>[0m  or  [0;34;94m<F1>[0m  for on-line help[0;34;94m[0K
+~                           [0mtype  :help version8[0;34;94m<Enter>[0m   for version info[0;34;94m[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m[No Name] [unix] (15:59 31/12/1969)                                                          0,0-1 Al[0Kl
+[0m[0K[45A[?25h[6n[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                           ^[[0K[45A[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0K[45A[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                           q[0K[45A[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:[0K[94G[?25h[2G[?25l[29A[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;30;47m[No Name] [unix] (15:59 31/12/1969)                                                          0,0-1 Al[0Kl
+[0;34;94m:[0;33;93mwq[0m[0K
+[0;34;94m:[0m[0K
+[0;34;94m:~[0K
+:~[0K
+:~[0K
+:~[0K
+:~[0K
+[0;7m[Command Line] [unix] (15:59 31/12/1969)                                                     2,0-1 Al[0Kl
+[0m:[0K[7A[2G[?25h[?25l
+
+
+
+
+
+
+:                                                                                          :q[0K[7A[2G[?25h[?25l
+
+
+
+
+
+
+[0;1mrecording @q[0m[0K[7A[2G[?25h[?25l
+
+
+
+
+
+
+:[0K[?25hq[0K![0K[1G[?25l[44A[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2/code[0m[0K
+$ cd ..[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0m[0K
+$ git init[0K
+Initialized empty Git repository in C:/Users/vsrini/Documents/coursework/18SP_bayesian/proj2/.git/[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git status[0K
+On branch master[0K
+[0K
+No commits yet[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31mPM10.doc[0m[0K
+        [0;31mPM10.txt[0m[0K
+        [0;31mcode/[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git add -A[0K
+warning: CRLF will be replaced by LF in PM10.txt.[0K
+The file will have its original line endings in your working directory.[0K
+warning: CRLF will be replaced by LF in code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l[0K7
+7aniqf5/00001b.html.[0K
+The file will have its original line endings in your working directory.[0K
+warning: CRLF will be replaced by LF in code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnm[0Ks
+bbftpu1/000036.html.[0K
+The file will have its original line endings in your working directory.[0K
+warning: CRLF will be replaced by LF in code/code.Rproj.[0K
+The file will have its original line endings in your working directory.[0K
+warning: CRLF will be replaced by LF in code/markdown.Rmd.[0K
+The file will have its original line endings in your working directory.[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git commit -a -m 'initial commit'[0K
+[master (root-commit) b625cde] initial commit[0K
+ Committer: Vinay Srinivasan <vsrini@ihme.washington.edu>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly:[0K
+[0K
+    git config --global user.name "Your Name"[0K
+    git config --global user.email you@example.com[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 28 files changed, 1394 insertions(+)[0K
+ create mode 100644 PM10.doc[0K
+ create mode 100644 PM10.txt[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/console06/997338C7[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/console06/INDEX001[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/5B47BFB4[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/8CEB7E11[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/CFA8BAC5[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/INDEX[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/185A4A63-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/685388BE[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/685388BE-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/B8CBA4DA[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/B8CBA4DA-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/FDAAEC6A-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/lock_file[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/AA5E2E5265D95836/chunks.jso[0Kn
+[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l77aniqf5/00001b.html[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l77aniqf5/00001b.meta[0Kd
+ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnmsbbftpu1/000036.html[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnmsbbftpu1/000036.meta[0Kd
+ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/chunks.json[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/ck1n3w1yzvp7x/000002.csv[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/csetup_chunk/000002.csv[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/patch-chunk-names[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/paths[0K
+ create mode 100644 code/code.Rproj[0K
+ create mode 100644 code/markdown.Rmd[0K
+ create mode 100644 code/markdown.pdf[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git remote add origin https://github.com/vsrini94/BIOST526.git[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git push -u origin master[0K
+Counting objects: 41, done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (33/33), done.[0K
+Writing objects: 100% (41/41), 952.23 KiB | 16.14 MiB/s, done.[0K
+Total 41 (delta 1), reused 0 (delta 0)[0K
+remote: Resolving deltas: 100% (1/1), done.[0K
+To https://github.com/vsrini94/BIOST526.git[0K
+ * [new branch]      master -> master[0K
+Branch 'master' set up to track remote branch 'master' from 'origin'.[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ vim[0K
+[0K[?25h[?25l
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ v[0K[?25hi[0K[?25lm[0K[5G[?25h[6G[7G[?25l$ vim .[0K[?25hg[0Ki[0Kt[0Ki[0Kg[0Kn[0Ko[0Kr[0Ke[0K[?25l
+[0K[?25h[0m[1;1H[2J[0m[0K[?25l
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+".gitignore" [New File][0K[?25h[?25l[44A[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore [unix] (15:59 31/12/1969)              0,0-1 Al[0Kl
+[0m".gitignore" [New File][0K[45A[?25h[0;7m[0K[?25l
+[0;34;94m~[0K
+[0K
+    ~[0K
+[0K
+        ~[0K
+[0K
+            ~[0K
+[0K
+                ~[0K
+[0K
+                    ~[0K
+[0K
+                        ~[0K
+[0K
+                            ~[0K
+[0K
+                                ~[0K
+[0K
+                                    ~[0K
+[0K
+                                        ~[0K
+[0K
+                                            ~[0K
+[0K
+                                                [0K~
+[0K
+[0K
+   ~[0K
+[0K
+       ~[0K
+[0K
+           ~[0K
+[0K
+               ~[0K
+[0K
+                   ~[0K
+[0K
+                       ~[0K
+[0K
+                           ~[0K
+[0K
+                               ~[0K
+[0K
+                                   ~[0K[44A[?25h[0;7m[0K[?25l
+[0;34;94m~[0K
+                           ~[0K
+                                                      ~[0K
+[0K
+      ~[0K
+                                 ~[0K
+                                                            ~[0K
+[0K
+            ~[0K
+                                       ~[0K
+                                                                  ~[0K
+[0K
+                  ~[0K
+                                             ~[0K
+                                                                        ~[0K
+[0K
+                        ~[0K
+                                                   ~[0K
+[0K
+   ~[0K
+                              ~[0K
+                                                         ~[0K
+[0K
+         ~[0K
+                                    ~[0K
+                                                               ~[0K
+[0K
+               ~[0K
+                                          ~[0K
+                                                                     ~[0K
+[0K
+                     ~[0K
+                                                ~[0K
+[0K
+~[0K
+                           ~[0K
+                                                      ~[0K
+[0K
+      ~[0K
+                                 ~[0K
+                                                            ~[0K
+[0K
+            ~[0K
+                                       ~[0K[44A[?25h[0;7m[0K[?25l
+[0;34;94m~[0K
+                      ~[0K
+                                            ~[0K
+                                                                  ~[0K
+[0K
+        ~[0K
+                              ~[0K
+                                                    ~[0K
+                                                                          ~[0K
+[0K
+                ~[0K
+                                      ~[0K
+                                                            ~[0K
+[0K
+  ~[0K
+                        ~[0K
+                                              ~[0K
+                                                                    ~[0K
+[0K
+          ~[0K
+                                ~[0K
+                                                      ~[0K
+                                                                            ~[0K
+[0K
+                  ~[0K
+                                        ~[0K
+                                                              ~[0K
+[0K
+    ~[0K
+                          ~[0K
+                                                ~[0K
+                                                                      ~[0K
+[0K
+            ~[0K
+                                  ~[0K
+                                                        ~[0K
+                                                                              ~[0K
+[0K
+                    ~[0K
+                                          ~[0K
+                                                                ~[0K
+[0K
+      ~[0K
+                            ~[0K[44A[?25h[0;7m[0K[?25l
+[0;34;94m~[0K
+               ~[0K
+                              ~[0K
+                                             ~[0K
+                                                            ~[0K
+                                                                           ~[0K
+[0K
+   ~[0K
+                  ~[0K
+                                 ~[0K
+                                                ~[0K
+                                                               ~[0K
+                                                                              ~[0K
+[0K
+      ~[0K
+                     ~[0K
+                                    ~[0K
+                                                   ~[0K
+                                                                  ~[0K
+                                                                                 ~[0K
+[0K
+         ~[0K
+                        ~[0K
+                                       ~[0K
+                                                      ~[0K
+                                                                     ~[0K
+                                                                                    ~[0K
+[0K
+            ~[0K
+                           ~[0K
+                                          ~[0K
+                                                         ~[0K
+                                                                        ~[0K
+[0K
+~[0K
+               ~[0K
+                              ~[0K
+                                             ~[0K
+                                                            ~[0K
+                                                                           ~[0K
+[0K
+   ~[0K
+                  ~[0K
+                                 ~[0K[44A[?25h[0;7m[0K[?25l
+[0;34;94m~[0K
+       ~[0K
+              ~[0K
+                     ~[0K
+                            ~[0K
+                                   ~[0K
+                                          ~[0K
+                                                 ~[0K
+                                                        ~[0K
+                                                               ~[0K
+                                                                      ~[0K
+                                                                             ~[0K
+                                                                                    ~[0K
+                                                                                           ~[0K
+[0K
+   ~[0K
+          ~[0K
+                 ~[0K
+                        ~[0K
+                               ~[0K
+                                      ~[0K
+                                             ~[0K
+                                                    ~[0K
+                                                           ~[0K
+                                                                  ~[0K
+                                                                         ~[0K
+                                                                                ~[0K
+                                                                                       ~[0K
+                                                                                              [0K~
+[0K
+      ~[0K
+             ~[0K
+                    ~[0K
+                           ~[0K
+                                  ~[0K
+                                         ~[0K
+                                                ~[0K
+                                                       ~[0K
+                                                              ~[0K
+                                                                     ~[0K
+                                                                            ~[0K
+                                                                                   ~[0K
+                                                                                          ~[0K
+[0K[44A[?25h[6n[?25l
+[0m[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore [unix] (15:59 31/12/1969)       0,0-1 Al[0Kl
+[0m[0K[44A[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore [unix] (15:59 31/12/1969)         0,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[?25h#[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      1,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[2G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      1,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[3G[?25h[?25l# H[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      1,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[4G[?25h[?25l# Hi[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      1,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[5G[?25h[?25l# His[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      1,6 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[6G[?25h[?25l# Hist[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      1,7 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[7G[?25h[?25l# Histor[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      1,9 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[9G[?25h[?25l# History[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     1,10 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[10G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     1,11 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[11G[?25h[?25l# History f[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     1,12 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[12G[?25h[?25l# History fil[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     1,14 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[14G[?25h[?25l# History file[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     1,15 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[15G[?25h[?25l# History files[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     1,16 Al[0Kl
+[0;1m-- INSERT --[0m[0K[44A[16G[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[?25h.[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[2G[?25h[?25l.R[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[3G[?25h[?25l.RH[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[4G[?25h[?25l.RHi[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[5G[?25h[?25l.RH[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[4G[?25h[?25l.R[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[3G[?25h[?25l.Rh[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[4G[?25h[?25l.Rhi[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[5G[?25h[?25l.Rhist[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,7 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[7G[?25h[?25l.Rhisto[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      2,8 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[8G[?25h[?25l.Rhistory[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     2,10 Al[0Kl
+[0;1m-- INSERT --[0m[0K[43A[10G[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      3,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[42A[?25h.[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      3,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[42A[2G[?25h[?25l.R[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      3,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[42A[3G[?25h[?25l.Ra[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      3,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[42A[4G[?25h[?25l.Rapp[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      3,6 Al[0Kl
+[0;1m-- INSERT --[0m[0K[42A[6G[?25h[?25l.Rapp.[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      3,7 Al[0Kl
+[0;1m-- INSERT --[0m[0K[42A[7G[?25h[?25l.Rapp.h[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      3,8 Al[0Kl
+[0;1m-- INSERT --[0m[0K[42A[8G[?25h[?25l.Rapp.hist[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     3,11 Al[0Kl
+[0;1m-- INSERT --[0m[0K[42A[11G[?25h[?25l.Rapp.histor[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     3,13 Al[0Kl
+[0;1m-- INSERT --[0m[0K[42A[13G[?25h[?25l.Rapp.history[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     3,14 Al[0Kl
+[0;1m-- INSERT --[0m[0K[42A[14G[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      4,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[41A[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      5,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[?25h#[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      5,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[2G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      5,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[3G[?25h[?25l# S[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      5,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[4G[?25h[?25l# Se[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      5,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[5G[?25h[?25l# Sess[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      5,7 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[7G[?25h[?25l# Session[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,10 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[10G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,11 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[11G[?25h[?25l# Session D[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,12 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[12G[?25h[?25l# Session Da[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,13 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[13G[?25h[?25l# Session Dat[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,14 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[14G[?25h[?25l# Session Date[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,15 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[15G[?25h[?25l# Session Dat[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,14 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[14G[?25h[?25l# Session Data[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,15 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[15G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,16 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[16G[?25h[?25l# Session Data F[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,17 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[17G[?25h[?25l# Session Data Fi[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,18 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[18G[?25h[?25l# Session Data File[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,20 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[20G[?25h[?25l# Session Data Files[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     5,21 Al[0Kl
+[0;1m-- INSERT --[0m[0K[40A[21G[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      6,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[39A[?25h.[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      6,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[39A[2G[?25h[?25l.R[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      6,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[39A[3G[?25h[?25l.RD[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      6,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[39A[4G[?25h[?25l.RDa[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      6,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[39A[5G[?25h[?25l.RData[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      6,7 Al[0Kl
+[0;1m-- INSERT --[0m[0K[39A[7G[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      7,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[38A[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      8,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[?25h#[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      8,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[2G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      8,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[3G[?25h[?25l# R[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      8,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[4G[?25h[?25l# RS[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      8,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[5G[?25h[?25l# RST[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      8,6 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[6G[?25h[?25l# RS[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      8,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[5G[?25h[?25l# RSt[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      8,6 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[6G[?25h[?25l# RStu[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      8,7 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[7G[?25h[?25l# RStud[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      8,8 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[8G[?25h[?25l# RStudio[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     8,10 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[10G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     8,11 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[11G[?25h[?25l# RStudio F[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     8,12 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[12G[?25h[?25l# RStudio Fi[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     8,13 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[13G[?25h[?25l# RStudio File[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     8,15 Al[0Kl
+[0;1m-- INSERT --[0m[0K[37A[15G[?25h[?25l# RStudio Files[0K
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      9,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[?25h.[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      9,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[2G[?25h[?25l.R[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      9,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[3G[?25h[?25l.Rp[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      9,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[4G[?25h[?25l.Rpr[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      9,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[5G[?25h[?25l.Rpro[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      9,6 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[6G[?25h[?25l.Rproj[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      9,7 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[7G[?25h[?25l.Rproj.[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      9,8 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[8G[?25h[?25l.Rproj.u[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)      9,9 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[9G[?25h[?25l.Rproj.us[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     9,10 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[10G[?25h[?25l.Rproj.use[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     9,11 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[11G[?25h[?25l.Rproj.user[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     9,12 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[12G[?25h[?25l.Rproj.user/[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     9,13 Al[0Kl
+[0;1m-- INSERT --[0m[0K[36A[13G[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     10,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[35A[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[?25h#[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[2G[?25h[?25l##[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[3G[?25h[?25l#[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[2G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[3G[?25h[?25l# K[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[4G[?25h[?25l# Kn[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[5G[?25h[?25l# Knit[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,7 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[7G[?25h[?25l# Kni[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,6 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[6G[?25h[?25l# Kn[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[5G[?25h[?25l# K[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[4G[?25h[?25l#[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[3G[?25h[?25l# k[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[4G[?25h[?25l# kn[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[5G[?25h[?25l# kni[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,6 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[6G[?25h[?25l# knit[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,7 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[7G[?25h[?25l# knitr[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,8 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[8G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     11,9 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[9G[?25h[?25l# knitr a[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,10 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[10G[?25h[?25l# knitr an[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,11 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[11G[?25h[?25l# knitr and[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,12 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[12G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,13 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[13G[?25h[?25l# knitr and R[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,14 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[14G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,15 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[15G[?25h[?25l# knitr and R m[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,16 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[16G[?25h[?25l# knitr and R mar[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,18 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[18G[?25h[?25l# knitr and R mark[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,19 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[19G[?25h[?25l# knitr and R markd[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,20 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[20G[?25h[?25l# knitr and R markdw[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,21 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[21G[?25h[?25l# knitr and R markd[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,20 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[20G[?25h[?25l# knitr and R markdo[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,21 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[21G[?25h[?25l# knitr and R markdown[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,23 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[23G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,24 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[24G[?25h[?25l# knitr and R markdown d[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,25 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[25G[?25h[?25l# knitr and R markdown de[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,26 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[26G[?25h[?25l# knitr and R markdown def[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,27 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[27G[?25h[?25l# knitr and R markdown defa[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,28 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[28G[?25h[?25l# knitr and R markdown defau[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,29 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[29G[?25h[?25l# knitr and R markdown defaul[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,30 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[30G[?25h[?25l# knitr and R markdown default[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,31 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[31G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,32 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[32G[?25h[?25l# knitr and R markdown default c[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,33 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[33G[?25h[?25l# knitr and R markdown default ca[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,34 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[34G[?25h[?25l# knitr and R markdown default cach[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,36 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[36G[?25h[?25l# knitr and R markdown default cache[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,37 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[37G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,38 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[38G[?25h[?25l# knitr and R markdown default cache di[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,40 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[40G[?25h[?25l# knitr and R markdown default cache dir[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,41 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[41G[?25h[?25l# knitr and R markdown default cache dire[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,42 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[42G[?25h[?25l# knitr and R markdown default cache direc[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,43 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[43G[?25h[?25l# knitr and R markdown default cache directo[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,45 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[45G[?25h[?25l# knitr and R markdown default cache directori[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,47 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[47G[?25h[?25l# knitr and R markdown default cache directorie[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,48 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[48G[?25h[?25l# knitr and R markdown default cache directories[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    11,49 Al[0Kl
+[0;1m-- INSERT --[0m[0K[34A[49G[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     12,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[?25h/[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     12,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[2G[?25h[?25l/*[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     12,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[3G[?25h[?25l/*c[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     12,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[4G[?25h[?25l/*[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     12,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[3G[?25h[?25l/*_[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     12,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[4G[?25h[?25l/*_c[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     12,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[5G[?25h[?25l/*_ca[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     12,6 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[6G[?25h[?25l/*_cach[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     12,8 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[8G[?25h[?25l/*_cache[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     12,9 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[9G[?25h[?25l/*_cache/[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)    12,10 Al[0Kl
+[0;1m-- INSERT --[0m[0K[33A[10G[?25h[?25l
+[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,1 Al[0Kl
+[0;1m-- INSERT --[0m[0K[32A[?25h/[0K[?25l
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,2 Al[0Kl
+[0;1m-- INSERT --[0m[0K[32A[2G[?25h[?25l/c[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,3 Al[0Kl
+[0;1m-- INSERT --[0m[0K[32A[3G[?25h[?25l/ca[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[32A[4G[?25h[?25l/cah[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[32A[5G[?25h[?25l/ca[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,4 Al[0Kl
+[0;1m-- INSERT --[0m[0K[32A[4G[?25h[?25l/cac[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,5 Al[0Kl
+[0;1m-- INSERT --[0m[0K[32A[5G[?25h[?25l/cach[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,6 Al[0Kl
+[0;1m-- INSERT --[0m[0K[32A[6G[?25h[?25l/cache[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,7 Al[0Kl
+[0;1m-- INSERT --[0m[0K[32A[7G[?25h[?25l/cache/[0K
+[0;34;94m~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+~[0K
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,8 Al[0Kl
+[0;1m-- INSERT --[0m[0K[32A[8G[?25h[6n[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                    ^[[0K[32A[7G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7m~/Documents/coursework/18SP_bayesian/proj2/.gitignore[+] [unix] (15:59 31/12/1969)     13,7 Al[0Kl
+[0m[0K[32A[7G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:[0K[?25hw[0Kq[0K[?25l".gitignore"[0K[?25h[?25l[44A[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2/code[0m[0K
+$ cd ..[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0m[0K
+$ git init[0K
+Initialized empty Git repository in C:/Users/vsrini/Documents/coursework/18SP_bayesian/proj2/.[0Kg
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git status[0K
+On branch master[0K
+[0K
+No commits yet[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31mPM10.doc[0m[0K
+        [0;31mPM10.txt[0m[0K
+        [0;31mcode/[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git add -A[0K
+warning: CRLF will be replaced by LF in PM10.txt.[0K
+The file will have its original line endings in your working directory.[0K
+warning: CRLF will be replaced by LF in code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/[0Ks
+7aniqf5/00001b.html.[0K
+The file will have its original line endings in your working directory.[0K
+warning: CRLF will be replaced by LF in code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/[0Ks
+bbftpu1/000036.html.[0K
+The file will have its original line endings in your working directory.[0K
+warning: CRLF will be replaced by LF in code/code.Rproj.[0K
+The file will have its original line endings in your working directory.[0K
+warning: CRLF will be replaced by LF in code/markdown.Rmd.[0K
+The file will have its original line endings in your working directory.[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git commit -a -m 'initial commit'[0K
+[master (root-commit) b625cde] initial commit[0K
+ Committer: Vinay Srinivasan <vsrini@ihme.washington.edu>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly:[0K
+[0K
+    git config --global user.name "Your Name"[0K
+    git config --global user.email you@example.com[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 28 files changed, 1394 insertions(+)[0K
+ create mode 100644 PM10.doc[0K
+ create mode 100644 PM10.txt[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/console06/997338C7[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/console06/INDEX001[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/5B47BFB4[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/8CEB7E11[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/CFA8BAC5[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/prop/INDEX[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/185A4A63-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/685388BE[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/685388BE-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/B8CBA4DA[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/B8CBA4DA-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/FDAAEC6A-contents[0K
+ create mode 100644 code/.Rproj.user/AA5E2E52/sources/s-65D95836/lock_file[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/AA5E2E5265D95836/chu[0Kn
+[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l77aniqf5/0000[0K1
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l77aniqf5/0000[0K1
+ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnmsbbftpu1/0000[0K3
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnmsbbftpu1/0000[0K3
+ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/chunks.json[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/ck1n3w1yzvp7x/0000[0K0
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/csetup_chunk/00000[0K2
+ create mode 100644 code/.Rproj.user/shared/notebooks/patch-chunk-names[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/paths[0K
+ create mode 100644 code/code.Rproj[0K
+ create mode 100644 code/markdown.Rmd[0K
+ create mode 100644 code/markdown.pdf[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git remote add origin https://github.com/vsrini94/BIOST526.git[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ git push -u origin master[0K
+Counting objects: 41, done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (33/33), done.[0K
+Writing objects: 100% (41/41), 952.23 KiB | 16.14 MiB/s, done.[0K
+Total 41 (delta 1), reused 0 (delta 0)[0K
+remote: Resolving deltas: 100% (1/1), done.[0K
+To https://github.com/vsrini94/BIOST526.git[0K
+ * [new branch]      master -> master[0K
+Branch 'master' set up to track remote branch 'master' from 'origin'.[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ vim[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$ vim .gitignore[0K
+[0K[?25h[?25l
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l[38A create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l77aniqf5/00001 create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l77aniqf5/00001ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnmsbbftpu1/00003 create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnmsbbftpu1/00003ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/chunks.json[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/ck1n3w1yzvp7x/00000 create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/csetup_chunk/000002 crea[0Kt
+e mode 100644 code/.Rproj.user/shared/notebooks/patch-chunk-names[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/paths[0K
+ create mode 100644 code/code.Rproj[0K
+ create mode 100644 code/markdown.Rmd[0K
+ create mode 100644 code/markdown.pdf[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ git remote add origin https://github.com/vsrini94/BIOST526.git[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ git push -u origin master[0K
+Counting objects: 41, done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (33/33), done.[0K
+Writing objects: 100% (41/41), 952.23 KiB | 16.14 MiB/s, done.[0K
+Total 41 (delta 1), reused 0 (delta 0)[0K
+remote: Resolving deltas: 100% (1/1), done.[0K
+To https://github.com/vsrini94/BIOST526.git[0K
+ * [new branch]      master -> master[0K
+Branch 'master' set up to track remote branch 'master' from 'origin'.[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ vim[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ vim .gitignore[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[6A[3G[?25h[?25l[32A create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l77aniqf5/00001 create mode 100644 code/.Rproj.user/shared/notebooks/F0[0K2
+E1C54-markdown/1/s/c1p9l77aniqf5/00001ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnmsbbftpu1/00003 create mode 100644 code/.Rproj.user/shared/notebooks/F0[0K2
+E1C54-markdown/1/s/c2fnmsbbftpu1/00003ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/chunks.json[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/ck1n3w1yzvp7x/00000 create mode 100644 code/.Rproj.user/shared/notebooks/F0[0K2
+E1C54-markdown/1/s/csetup_chunk/000002 create mode 100644 code/.Rproj.user/shared/notebooks/patch-chunk-names[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/paths[0K
+ create mode 100644 code/code.Rproj[0K
+ create mode 100644 code/markdown.Rmd[0K
+ create mode 100644 code/markdown.pdf[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ git remote add origin https://github.com/vsrini94/BIOST526.git[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ git push -u origin master[0K
+Counting objects: 41, done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (33/33), done.[0K
+Writing objects: 100% (41/41), 952.23 KiB | 16.14 MiB/s, done.[0K
+Total 41 (delta 1), reused 0 (delta 0)[0K
+remote: Resolving deltas: 100% (1/1), done.[0K
+To https://github.com/vsrini94/BIOST526.git[0K
+ * [new branch]      master -> master[0K
+Branch 'master' set up to track remote branch 'master' from 'origin'.[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ vim[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ vim .gitignore[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$[0K
+[0K
+[0K
+[0K
+[0K[4A[3G[?25h[?25l[34A create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c1p9l77aniqf5/00001 create mode 100644 code/.Rproj.user/shared/notebooks[0K/
+F02E1C54-markdown/1/s/c1p9l77aniqf5/00001ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/c2fnmsbbftpu1/00003 create mode 100644 code/.Rproj.user/shared/notebooks[0K/
+F02E1C54-markdown/1/s/c2fnmsbbftpu1/00003ata[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/chunks.json[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/F02E1C54-markdown/1/s/ck1n3w1yzvp7x/00000 create mode 100644 code/.Rproj.user/shared/notebooks[0K/
+F02E1C54-markdown/1/s/csetup_chunk/000002 create mode 100644 code/.Rproj.user/shared/notebooks/patch-chunk-names[0K
+ create mode 100644 code/.Rproj.user/shared/notebooks/paths[0K
+ create mode 100644 code/code.Rproj[0K
+ create mode 100644 code/markdown.Rmd[0K
+ create mode 100644 code/markdown.pdf[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ git remote add origin https://github.com/vsrini94/BIOST526.git[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ git push -u origin master[0K
+Counting objects: 41, done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (33/33), done.[0K
+Writing objects: 100% (41/41), 952.23 KiB | 16.14 MiB/s, done.[0K
+Total 41 (delta 1), reused 0 (delta 0)[0K
+remote: Resolving deltas: 100% (1/1), done.[0K
+To https://github.com/vsrini94/BIOST526.git[0K
+ * [new branch]      master -> master[0K
+Branch 'master' set up to track remote branch 'master' from 'origin'.[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ vim[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$ vim .gitignore[0K
+[0K
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0K
+[0m$[0K
+[0K
+[0K
+[0K
+[0K[4A[3G[?25h[?25l$ git config --global core.autocrlf true[0K
+[0K
+[0K
+[0K
+[0K[4A[41G[?25h[?25l
+[?25h[?25l
+[0;32mvsrini@LT-30222376 [0;35m [0;33m~/Documents/coursework/18SP_bayesian/proj2[0;36m (master)[0m[0K
+$[0K
+[0K[1A[3G[?25h[?25l$ g[0K
+[0K[1A[4G[?25h[?25l$ gi[0K
+[0K[1A[5G[?25h[?25l$ git[0K
+[0K[1A[6G[?25h[7G[?25l$ git c[0K
+[0K[1A[8G[?25h[?25l$ git co[0K
+[0K[1A[9G[?25h[?25l$ git com[0K
+[0K[1A[10G[?25h[?25l$ git comm[0K
+[0K[1A[11G[?25h[?25l$ git commi[0K
+[0K[1A[12G[?25h[?25l$ git commit[0K
+[0K[1A[13G[?25h[14G[?25l$ git commit -[0K
+[0K[1A[15G[?25h[?25l$ git commit -a[0K
+[0K[1A[16G[?25h[17G[?25l$ git commit -a -[0K
+[0K[1A[18G[?25h[?25l$ git commit -a -m[0K
+[0K[1A[19G[?25h[20G[?25l$ git commit -a -m '[0K
+[0K[1A[21G[?25h[?25l$ git commit -a -m 'a[0K
+[0K[1A[21G[?25h[22G[?25l$ git commit -a -m 'ad[0K
+[0K[1A[23G[?25h[?25l$ git commit -a -m 'add[0K
+[0K[1A[24G[?25h[?25l$ git commit -a -m 'addi[0K
+[0K[1A[25G[?25h[?25l$ git commit -a -m 'addin[0K
+[0K[1A[26G[?25h[?25l$ git commit -a -m 'adding[0K
+[0K[1A[27G[?25h[28G[?25l$ git commit -a -m 'adding g[0K
+[0K[1A[29G[?25h[?25l$ git commit -a -m 'adding gi[0K
+[0K[1A[30G[?25h[?25l$ git commit -a -m 'adding git[0K
+[0K[1A[31G[?25h[32G[?25l$ git commit -a -m 'adding git i[0K
+[0K[1A[33G[?25h[?25l$ git commit -a -m 'adding git ig[0K
+[0K[1A[34G[?25h[?25l$ git commit -a -m 'adding git ign[0K
+[0K[1A[35G[?25h[?25l$ git commit -a -m 'adding git igno[0K
+[0K[1A[36G[?25h[?25l$ git commit -a -m 'adding git ignor[0K
+[0K[1A[37G[?25h[?25l$ git commit -a -m 'adding git ignore[0K
+[0K[1A[38G[?25h[?25l$ git commit -a -m 'adding git ignore'[0K
+[0K[1A[39G[?25h[?25l
+[?25h
