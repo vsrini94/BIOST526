@@ -1,0 +1,3 @@
+"0","knitr::opts_chunk$set(echo = TRUE, tidy = T, tidy.opts = list(width.cutoff = 60))"
+"0","library(pacman)"
+"0","pacman::p_load(data.table, magrittr, INLA, ggplot2, plyr, knitr)"

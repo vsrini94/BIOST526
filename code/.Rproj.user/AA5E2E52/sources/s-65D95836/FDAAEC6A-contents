@@ -1,0 +1,104 @@
+---
+title: "HW 6"
+author: "Vinay Srinivasan"
+date: "May 28, 2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, tidy.opts = list(width.cutoff = 60), tidy = T)
+require(pacman)
+pacman::p_load(data.table, magrittr, lme4, INLA, metafor, knitr, ggplot2)
+```
+
+## Question 1
+
+(a)
+
+
+```{r a}
+
+datadf <- data.table(expand.grid(study = 1:26, treatment = c('a', 'b', 'c')))
+datadf[, treatment := as.character(treatment)]
+
+datadf[treatment == 'a' & study %in% 1:9, c('bled', 'total'):= .(c(2, 12, 4, 20, 1, 7, 18, 2, 8), c(43, 68, 20, 116, 30, 53, 85, 51, 23))]
+
+datadf[treatment == 'b' & study %in% c(1, 2, 10:26), c('bled', 'total'):= .(c(9, 13, 4, 3, 5, 5, 3, 11, 19, 17, 10, 12, 0, 13, 31, 20, 3, 3, 6), c(42, 73, 18, 35, 56, 16, 23, 49, 53, 53, 71, 41, 21, 33, 143, 55, 13, 21, 22))]
+
+datadf[treatment == 'c' & study %in% 1:26, c('bled', 'total') := .(c(13, 13, 4, 30, 11, 10, 31, 11, 2, 0, 22, 30, 6, 9, 31, 9, 26, 29, 14, 3, 14, 23, 19, 12, 5, 2), c(41, 72, 16, 111, 49, 53, 89, 51, 25, 19, 36, 53, 18, 22, 46, 60, 60, 69, 41, 20, 35, 138, 51, 16, 28, 24))]
+
+datadf[, no_bled := total - bled]
+
+#datadf[, treatment := factor(treatment, levels = c('c', 'b', 'a'))]
+
+## beta blocker comparisons
+betadf <- datadf[study %in% 1:9 & treatment %in% c('a', 'c')]
+
+widebetadf <- dcast(betadf[, !'total'],...~treatment, value.var = c('bled', 'no_bled'))
+
+## Frequentist
+beta_fe <- rma.mh(measure = 'OR', ai=bled_a, bi = no_bled_a, ci = bled_c, di = no_bled_c, data = widebetadf, slab = study)
+
+beta_re <- rma(measure = 'OR', ai=bled_a, bi = no_bled_a, ci = bled_c, di = no_bled_c, data = widebetadf, slab = study)
+
+forest(beta_fe, atransf = exp)
+forest(beta_re, atransf = exp)
+
+## Bayesian
+beta_fe_b <- inla(bled~as.factor(study) + treatment, data = betadf, family = 'binomial', Ntrials = total)
+
+beta_re_b <- inla(bled~f(as.factor(study),model = 'iid') + treatment, data = betadf, family = 'binomial', Ntrials = total)
+
+## Results
+
+beta_resultsdf <- data.table(expand.grid(method = c('frequentist', 'bayesian'),
+                                         model_type = c('fe', 're')))
+beta_resultsdf[method == 'frequentist', c('mean', 'lower', 'upper') := .(c(beta_fe$beta, beta_re$beta), c(beta_fe$ci.lb, beta_re$ci.lb), c(beta_fe$ci.ub, beta_re$ci.ub))]
+
+beta_resultsdf[method == 'bayesian', c('mean', 'upper', 'lower') := .(c(-beta_fe_b$summary.fixed['treatmentc', 'mean'], -beta_re_b$summary.fixed['treatmentc', 'mean']), c(-beta_fe_b$summary.fixed['treatmentc', '0.025quant'], -beta_re_b$summary.fixed['treatmentc', '0.025quant']), c(-beta_fe_b$summary.fixed['treatmentc', '0.975quant'], -beta_re_b$summary.fixed['treatmentc', '0.975quant']))]
+
+beta_resultsdf[, c('mean', 'lower', 'upper') := lapply(.SD, exp), .SDcols = c('mean', 'lower', 'upper')]
+
+kable(beta_resultsdf, digits = 3, caption = 'Summary of Beta Blocker Analyses')
+
+```
+
+Both the fixed and random effects analyses within the frequentist and bayesian paradigms showed that the odds of a first bleed with beta blocker treatment are about half that of control. The estimates from the frequentist, random effects analysis are least precise.
+
+```{r b}
+
+## sclerotherapy comparisons
+sclerdf <- datadf[study %in% c(1, 2, 10:26) & treatment %in% c('b', 'c')]
+
+widesclerdf <- dcast(sclerdf[, !'total'],...~treatment, value.var = c('bled', 'no_bled'))
+
+## Frequentist
+scler_fe <- rma.mh(measure = 'OR', ai=bled_b, bi = no_bled_b, ci = bled_c, di = no_bled_c, data = widesclerdf, slab = study)
+
+scler_re <- rma(measure = 'OR', ai=bled_b, bi = no_bled_b, ci = bled_c, di = no_bled_c, data = widesclerdf, slab = study)
+
+forest(scler_fe, atransf = exp)
+forest(scler_re, atransf = exp)
+
+## Bayesian
+scler_fe_b <- inla(bled~as.factor(study) + treatment, data = sclerdf, family = 'binomial', Ntrials = total)
+
+scler_re_b <- inla(bled~f(as.factor(study),model = 'iid') + treatment, data = sclerdf, family = 'binomial', Ntrials = total)
+
+## Results
+
+scler_resultsdf <- data.table(expand.grid(method = c('frequentist', 'bayesian'),
+                                         model_type = c('fe', 're')))
+scler_resultsdf[method == 'frequentist', c('mean', 'lower', 'upper') := .(c(scler_fe$beta, scler_re$beta), c(scler_fe$ci.lb, scler_re$ci.lb), c(scler_fe$ci.ub, scler_re$ci.ub))]
+
+scler_resultsdf[method == 'bayesian', c('mean', 'upper','lower') := .(c(-scler_fe_b$summary.fixed['treatmentc', 'mean'], -scler_re_b$summary.fixed['treatmentc', 'mean']), c(-scler_fe_b$summary.fixed['treatmentc', '0.025quant'], -scler_re_b$summary.fixed['treatmentc', '0.025quant']), c(-scler_fe_b$summary.fixed['treatmentc', '0.975quant'], -scler_re_b$summary.fixed['treatmentc', '0.975quant']))]
+
+scler_resultsdf[, c('mean', 'lower', 'upper') := lapply(.SD, exp), .SDcols = c('mean', 'lower', 'upper')]
+
+kable(scler_resultsdf, digits = 3, caption = 'Summary of Sclerotherapy Analyses')
+
+```
+
+Both the fixed and random effects analyses within the frequentist and bayesian paradigmns show that the odds of bleeding with slearotherapy are about 60 percent of those of the control treatment. The mean estimates are consistently (although only slightly) higher than those for beta blockers, and the estimates are sligtly more precise. As with beta blockers, the random effects analysis within the frequentist paradigm was the least precise.
+
+(c) The most glaring limitation in the above meta analyses is that they did not account for indirect comparisons (i.e additional comparisons that could be made between sclerothearpy and beta blockers given that we have a plethora of information about each against the same control). Pooling information from all studies would allow us to make these indirect comparisons. This, however, comes at the cost of a more complicated mixed effects model whose parameters would be less straightforward to interpret. Additionally, systematic differences between studies conducted with one set of treatments as opposed to another could significantly impact the way we weight individual studies in their synthesis.

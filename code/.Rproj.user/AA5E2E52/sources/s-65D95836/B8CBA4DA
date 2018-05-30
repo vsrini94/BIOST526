@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1527666161402.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B8CBA4DA",
+    "lastKnownWriteTime" : 32651569751457901,
+    "last_content_update" : 1527666161402,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "829282B5",
+        "caption" : "preddf",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=preddf&cache_key=829282B5",
+        "displayedObservations" : 288,
+        "environment" : "",
+        "object" : "preddf",
+        "preview" : 0,
+        "totalObservations" : 288,
+        "variables" : 6
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
