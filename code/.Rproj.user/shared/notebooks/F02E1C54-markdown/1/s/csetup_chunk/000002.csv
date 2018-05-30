@@ -1,3 +1,24 @@
-"0","knitr::opts_chunk$set(echo = TRUE, tidy = T, tidy.opts = list(width.cutoff = 60))"
-"0","library(pacman)"
-"0","pacman::p_load(data.table, magrittr, INLA, ggplot2, plyr, knitr)"
+"0","pacman::p_load(data.table, magrittr, INLA, ggplot2, plyr, knitr, lubridate)
+"
+"2","Installing package into ‘C:/Users/vsrini/Documents/R/win-library/3.4’
+(as ‘lib’ is unspecified)
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/lubridate_1.7.4.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1365950 bytes (1.3 MB)
+"
+"2","downloaded 1.3 MB
+
+"
+"1","package â€˜lubridateâ€™ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1","The downloaded binary packages are in
+	C:\Users\vsrini\AppData\Local\Temp\Rtmpsr3ANh\downloaded_packages"
+"1","
+"
+"2","
+lubridate installed
+"

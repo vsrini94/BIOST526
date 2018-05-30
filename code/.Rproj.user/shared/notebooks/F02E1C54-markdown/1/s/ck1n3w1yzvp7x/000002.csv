@@ -5,5 +5,8 @@
 "0","# Creating continuous time variable"
 "0","datadf <- datadf[order(day, hour)]"
 "0","datadf[, t := 24*day + hour]"
+"0","# Creating season variable (assuming start day october first)"
+"0","datadf[, season := (as.Date(""2001-10-01"") + day) %>% month %>% as.character()]"
+"0","datadf[season %in% c(12, 1, 2), season := 'winter'][season %in% 3:5, season := 'spring'][season %in% 6:8, season := 'summer'][season %in% 9:11, season := 'fall']"
 "0","# Creating binned wind direction variable"
 "0","datadf[, wind_dir_bin := round_any(wind_dir, 180)][, wind_dir_bin:=ifelse(wind_dir_bin == 180, 0, 1)]"
